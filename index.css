@@ -32,15 +32,15 @@ button{
 
 .item-list{
     border: 1px solid grey;
-    border-bottom: none;
     padding: 10px 5px;
-}
-
-.item-list:last-child{
-    border-bottom:  1px solid grey;
 }
 .remove-btn{
     float: right;
     background-color: red;
     border: 1px solid red;
+}
+.search{
+    float: right;
+    margin-right: 50px;
+    width: 200px;
 }
