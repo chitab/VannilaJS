@@ -10,5 +10,5 @@
 </div>
 
 - 👨‍💻 I am a frontend developer with a focus on web fundamentals. Here is a list of best Vanilla JS Projects for interview...
-     1. AddTasks
+     - AddTasks
 
