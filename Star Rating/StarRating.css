@@ -1,0 +1,47 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  height: 60px;
+  background-color: chocolate;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container{
+  width: 90%;
+  padding-top: 15px;
+  margin: auto;
+}
+
+.empty-star{
+  display: flex;
+  justify-content: center;
+  font-size: 4rem;
+}
+.star::before{
+  content: '✩';
+  padding: 5px;
+  cursor: pointer;
+}
+.filled-star::before{
+  content: '★';
+  color: gold;
+  padding: 5px;
+  cursor: pointer;
+}
+.info{
+  justify-content: center;
+  display: flex;
+  padding: 20px;
+}
+.smily{
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+}
+/* .smily::before{
+  content: '😊';  
+} */
